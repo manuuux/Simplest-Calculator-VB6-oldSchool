@@ -35,6 +35,7 @@ Begin VB.Form Calculadora
       EndProperty
       Height          =   495
       Left            =   0
+      Locked          =   -1  'True
       TabIndex        =   15
       Top             =   0
       Width           =   1935
@@ -166,7 +167,7 @@ Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
-Public PreviusResult As Long
+Public PreviusResult As Double
 Public operation As String
 Private Sub Command0_Click()
 Results.Text = Results.Text + "0"
